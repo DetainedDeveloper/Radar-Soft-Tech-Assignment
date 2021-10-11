@@ -1,3 +1,13 @@
+# Project Structure
+- Project is made using MVC pattern and Provider for **`State Management`**
+
+1. ### [**`core`**](https://github.com/DetainedDeveloper/Radar-Soft-Tech-Assignment/tree/master/radar_soft_tech/lib/core) contains network requests and resources
+
+2. ### [**`features`**](https://github.com/DetainedDeveloper/Radar-Soft-Tech-Assignment/tree/master/radar_soft_tech/lib/features) contains models and all features (users in this case).
+
+3. ### [**`users`**](https://github.com/DetainedDeveloper/Radar-Soft-Tech-Assignment/tree/master/radar_soft_tech/lib/features/users) for **`data(model)`**, **`logic(controller)`** and **`ui(view)`**
+  - Each **`feature`** has it's own **`M, V and C`**
+
 # Screenshots
 
 <table>
